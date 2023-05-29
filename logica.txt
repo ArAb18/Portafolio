@@ -1,1 +1,0 @@
-comparar los caracteres del texto ingresado con un for en donde si el texto coincide con alguna vocal intercambiar la vocal por el encriptado
