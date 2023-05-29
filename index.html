@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Encripatdor</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Logo.png" alt="logo">
+    </header>
+    <main>
+    <section class="area-e"> 
+    <textarea class="textarea" cols='50' rows='10' placeholder="ingrese el texto aqui"></textarea>
+    <div class="caja"><h6 class="informacion">Solo letras minusculas y sin acentos</h6></div>
+    <div class="botones">
+        <button onclick="btnencriptar()" class="boton">Encriptar</button>
+        <button onclick="btndesencriptar()" class="boton">Desencriptar</button>
+    </div>
+    </section>
+    <section class="area-m">
+    <textarea class="textarea_msg" cols='27' rows='10' ></textarea>
+        <div class="copiar-contenedor"><button class='copiar' onclick="copiartexto()">Copiar</button></div>
+    </section>
+    
+    </main>
+    <script src="java.js"></script>
+</body>
+</html>
